@@ -60,9 +60,11 @@ K --> L[Inventory Engine]
 L --> M[Variance Engine]
 M --> N[Analytics Views]
 N --> O[Streamlit Dashboard]
+```
 
 ## Data Model
 
+```mermaid
 erDiagram
 
 VENUES ||--o{ LOCATIONS : has
@@ -113,3 +115,4 @@ RECIPES {
     int recipe_id
     string drink_name
 }
+```
