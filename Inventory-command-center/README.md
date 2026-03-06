@@ -60,3 +60,54 @@ K --> L[Inventory Engine]
 L --> M[Variance Engine]
 M --> N[Analytics Views]
 N --> O[Streamlit Dashboard]
+
+erDiagram
+
+VENUES ||--o{ LOCATIONS : has
+VENUES ||--o{ INVENTORY_COUNTS : tracks
+PRODUCTS ||--o{ INVENTORY_COUNTS : counted
+PRODUCTS ||--o{ PURCHASES : purchased
+PRODUCTS ||--o{ TRANSFERS : transferred
+PRODUCTS ||--o{ RECIPES : used_in
+
+VENUES {
+    int venue_id
+    string venue_name
+    boolean liquor_license
+}
+
+LOCATIONS {
+    int location_id
+    int venue_id
+    string location_name
+}
+
+PRODUCTS {
+    int product_id
+    string product_name
+    string category
+}
+
+PURCHASES {
+    int purchase_id
+    int venue_id
+    int product_id
+}
+
+TRANSFERS {
+    int transfer_id
+    int from_venue
+    int to_venue
+}
+
+INVENTORY_COUNTS {
+    int count_id
+    int venue_id
+    int location_id
+    int product_id
+}
+
+RECIPES {
+    int recipe_id
+    string drink_name
+}
