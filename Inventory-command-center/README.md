@@ -116,3 +116,5 @@ RECIPES {
     string drink_name
 }
 ```
+
+A standalone SQL version of the schema is also included at `database/schema.sql`.
