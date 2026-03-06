@@ -61,6 +61,8 @@ L --> M[Variance Engine]
 M --> N[Analytics Views]
 N --> O[Streamlit Dashboard]
 
+## Data Model
+
 erDiagram
 
 VENUES ||--o{ LOCATIONS : has
