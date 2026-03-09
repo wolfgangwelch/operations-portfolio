@@ -1,0 +1,9 @@
+date,category,sku,units,revenue
+2026-01-01,Bar,Don Julio,4,240
+2026-01-01,Bar,Casamigos,2,120
+2026-01-01,Food,Steak,1,80
+2026-01-02,Bar,Don Julio,3,180
+2026-01-02,Food,Burger,2,40
+2026-01-02,VIP,VIP Table,1,500
+2026-01-03,Bar,Patron,2,110
+2026-01-03,Food,Steak,1,80
