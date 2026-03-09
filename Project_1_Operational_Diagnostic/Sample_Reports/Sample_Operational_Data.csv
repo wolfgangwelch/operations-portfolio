@@ -1,0 +1,11 @@
+date,location,category,sku,units,revenue,transaction_id
+2025-01-01,Primary Location,Category A,A_1,2,84.00,TXN_100001
+2025-01-01,Primary Location,Category B,B_2,1,29.50,TXN_100002
+2025-01-01,Primary Location,Category C,C_4,3,55.20,TXN_100003
+2025-01-02,Primary Location,Category A,A_2,1,43.10,TXN_100004
+2025-01-02,Primary Location,Category D,D_1,2,111.00,TXN_100005
+2025-01-03,Primary Location,Category B,B_1,4,113.40,TXN_100006
+2025-01-03,Primary Location,Category A,A_3,2,86.20,TXN_100007
+2025-01-04,Primary Location,Category C,C_1,2,37.80,TXN_100008
+2025-01-04,Primary Location,Category A,A_1,3,127.50,TXN_100009
+2025-01-05,Primary Location,Category B,B_3,2,57.30,TXN_100010
